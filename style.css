@@ -1,0 +1,44 @@
+html{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(255, 255, 255,0.75);
+    width:90%;
+    max-width: 800px;
+    border-radius: 25px;
+    padding: 20;
+    font-family:'relway' ;
+    margin: 50px auto;
+}
+h1{
+    text-align:center ;
+}
+label{
+    display: block;
+margin: 10px;
+}
+input,select,textarea{
+display: block;
+width: 100%;
+background-color: rgb(223, 237, 250);
+border: solid;
+font-size: 20px;
+border-radius: 15px;
+}
+input[type='submit']:hover,
+input [type='submit']:focus{
+    outline:none;
+    backgroud-color:green;
+}
+input[type='reset']:hover,
+input[type='reset']:focus{
+    outline:none;
+    background-color: red;
+}
+.incline-label{
+display: inline;
+}

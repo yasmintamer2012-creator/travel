@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+<h1>prepare your next trip with me</h1>
+<p>please take a moment to get in touch,i will get back to you shortly</p>
+<div>
+    <div>
+        <label for="name">full name</label>
+        <input type="text" id="name" name="name" required  placeholder="enter your full name ">
+    </div>
+
+    <div>
+        <label for="email">email adress</label>
+        <input type="text" id="email"  name="email"  required placeholder="enter valid email">
+    </div>
+
+    <div>
+        <label for="phone">phone naumber</label>
+        <input type="tel" id="phone" required placeholder="enter your phone number">
+    </div>
+ <div>
+    <label for="gender">gender</label>
+   <div>
+    <input type="radio" name="gender" id="male" value="male">
+   <label  class="incline-label"  for="male">male</label>
+   </div>
+
+   <div>
+    <input type="radio" name="gender" id="female" value="female">
+   <label  class="incline-label"  for="female">female</label>
+   </div>
+ </div>
+ <div>
+    <label for="date">arriving date</label>
+    <input type="date" id="date" name="date">
+ </div>
+ 
+ <div>
+    <label for="date">departure date</label>
+    <input type="date" id="date" name="date">
+ </div>
+ 
+ <div>
+    <label for="passport">passport</label>
+    <input type="file" id="file" name="file">
+ </div>
+ 
+ <div>
+    <label for="cities">where would you like to travel</label>
+    <select name="cities" id="cities">
+        <option value="">choose one</option>
+        <option value="cairo">cairo</option>
+        <option value="alex">alex</option>
+        <option value="luxor">luxor</option>
+        <option value="aswan">aswan</option>
+    </select>
+ </div>
+<div>
+    <label for="">check on the services that you need</label>
+     <div>
+        <input type="checkbox" name="airline-tickets" id="airline-tickets">
+        <label for="airline-tickets" class="incline-label">airline-tickets</label>
+     </div>
+
+     <div>
+        <input type="checkbox" name="rental-car" id="rental-car">
+        <label for="rental-car" class="incline-label">rental-car</label>
+     </div>
+
+          <div>
+        <input type="checkbox" name="hotel-accomidation" id="hotel-accomidation">
+        <label for="hotel-accomidation" class="incline-label">hotel-accomidation</label>
+     </div>
+          <div>
+        <input type="range" name="budget" id="budget"  min="1300" max="13000" value="1300" oninput="valueDisplay.value = this.value">
+        <output id="valueDisplay"></output>
+        <label for="budget" class="incline-label">budget</label>
+     </div>
+
+</div>
+</div>
+<input type="submit" value="submit">
+<input type="reset"  value="reset">
+    </form>
+</body>
+</html>
