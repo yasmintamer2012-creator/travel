@@ -6,7 +6,7 @@ html{
 
 }
 body{
-    background: rgb(255, 255, 255,0.75);
+    background: rgba(239, 10, 10, 0.75);
     width:90%;
     max-width: 800px;
     border-radius: 25px;
